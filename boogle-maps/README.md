@@ -1,16 +1,26 @@
-# ND035-P02-VehiclesAPI-Project
+# Boogle Maps
 
-Project repository for JavaND Project 2, where students implement a Vehicles API using Java and Spring Boot that can communicate with separate location and pricing services.
+This is a Mock that simulates a Maps WebService where, given a latitude
+longitude, will return a random address.
 
 ## Instructions
 
-Check each component to see its details and instructions. Note that all three applications
-should be running at once for full operation. Further instructions are available in the classroom.
+Via shell it can be started using
 
-- [Vehicles API](vehicles-api/README.md)
-- [Pricing Service](pricing-service/README.md)
-- [Boogle Maps](boogle-maps/README.md)
+```
+$ mvn clean package
+```
 
-## Dependencies
+```
+$ java -jar target/boogle-maps-0.0.1-SNAPSHOT.jar
+```
 
-The project requires the use of Maven and Spring Boot, along with Java v11.
+The service is available by default on port `9191`. You can check it on the
+command line by using
+
+```
+$ curl http://localhost:9191/maps\?lat\=20.0\&lon\=30.0
+``` 
+
+You can also import it as a Maven project on your preferred IDE and
+run the class `BoogleMapsApplication`.
