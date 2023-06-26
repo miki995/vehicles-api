@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/boogle-maps/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/boogle-maps/pricing-service/pom.xml" />
         <option value="$PROJECT_DIR$/boogle-maps/vehicles-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pricing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../eureka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
